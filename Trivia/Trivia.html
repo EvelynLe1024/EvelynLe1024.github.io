@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Trivia</title>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+        <link href="./StyleTrivia.css" rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <span class="logo"> Evelyn Le </span>
+                <ul>
+                    <li><a href="../Homepage/ELWebsite.html">Home</a></li>
+                    <li><a href="../Homepage/ELWebsite.html#about">About</a></li>
+                    <li class="dropdown" id="projects">
+                        <a href="#">Portfolio</a>
+                        <ul class="dropdown-menu" id="projects-menu">
+                            <li><a href="../Trivia/Trivia.html">Games</a></li>
+                            <li><a>Apps</a></li>
+                            <li><a>Data Visualization</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../Homepage/ELWebsite.html#contact">Contact</a></li>
+                </ul> 
+            </nav>
+        </header>
+
+        <!-- Banner -->
+        <div class="banner">       
+            <h1>Games</h1>
+        </div>
+
+        <!--Game-->
+        <h2>Trivia</h2>
+        <h3>Famous Female Programmers </h3>
+        <p>The trivia question below tests your knowledge of famous female programmers. 
+            You can look up information before answering the question.
+            The most important thing is that you have fun! 
+        <br>
+        <br>I built this game with HTML, CSS, and jQuery. You can see the code <a href="https://github.com/EvelynLe1024" target="_blank">here</a>.
+        </p>
+        <div class="card">
+            <div class="question">
+                <div class="question-text">
+                Which female programmer is referred to as "the (grand)mother of COBOL" (common business-oriented language)?
+                </div>
+            </div>
+            <div class="hint-box">
+                <div class="hint">Show/Hide Hint</div>
+                <div class="hint-text">
+                    The world's largest women in tech conference is named after her. 
+                </div>
+            </div>
+
+            <div class="answers">
+                <div class="wrong-answer-one">
+                    <div class="wrong-text-one">1. Ellen Ochoa</div>
+                </div>
+                <div class="wrong-answer-two">
+                    <div class="wrong-text-two">2. Yoky Matsuoka</div>
+                </div>
+                <div class="correct-answer">
+                    <div class="correct-answer-text">3. Grace Hopper</div>
+                </div>
+                <div class="wrong-answer-three">
+                    <div class="wrong-text-three">4. Evelyn Boyd Granville</div>
+                </div>
+            </div>
+
+            <div class="result">
+                <div class="correct">
+                    <img class="smiley" src="smiley.png" alt="smiley face" width=200 height=auto>
+                    <p>Congratulations! Your answer is correct!</p>
+                </div>
+
+                <div class="wrong">
+                    <img class="sadface" id="sadface" src="sadface.png" alt="sad face" width=200 height=auto>
+                    <p>Your answer is not correct this time. Please try again!</p>
+                </div>
+            </div>
+
+            <div class="reset">
+                    Reset
+            </div>
+    
+
+            <!--Explanations-->
+            <div class="explanations">
+                    <div class="question">                        
+                        Are you curious who the female programmers mentioned above are? 
+                        It's time to do some fun research! If you are anxious to know the answers, check them out below.                        
+                    </div>
+
+                    <div class="explanation-names">
+                        <div id="ellen" class="name">Ellen Ochoa</div>
+                            <div id="explanation-one" class="explanation"> 
+                                Ellen Ochoa (born May 10, 1958) is an American engineer, former astronaut and former Director of the Johnson Space Center.
+                                In 1993, Ochoa became the first Hispanic woman in the world to go to space when she served on a nine-day mission aboard the shuttle Discovery.
+                                As Chief of the Intelligent Systems Technology Branch at Ames, she supervised 35 engineers and scientists in the research and development of 
+                                computational systems for aerospace missions. 
+                            </div>
+
+                        <div id="yoky" class="name">Yoky Matsuoka</div>
+                            <div id="explanation-two" class="explanation">
+                                Yoky Matsuoka is the VP of Technology and Analytics at Twitter, and formerly the Vice President of Technology at Nest, 
+                                where she was in charge of UX and the learning aspects of Nest's thermostat. 
+                                Previously, she was an associate professor of Computer Science and Engineering at the University of Washington, 
+                                director of that university's Neurobotics Laboratory, director of the Center for Sensorimotor Neural Engineering. 
+                            </div>
+
+                        <div id="grace" class="name">Grace Hopper</div>
+                            <div id="explanation-three" class="explanation">
+                                Grace Brewster Murray Hopper (December 9, 1906 – January 1, 1992) was an American computer scientist and United States Navy rear admiral.
+                                One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of the first linkers. 
+                                She popularized the idea of machine-independent programming languages, which led to the development of COBOL, 
+                                an early high-level programming language still in use today.
+                            </div>
+
+                        <div id="evelyn" class="name">Evelyn Boyd Granville</div>
+                            <div id="explanation-four" class="explanation">
+                                Evelyn Boyd Granville (born May 1, 1924) was the second African-American woman to receive a Ph.D. in mathematics from an American University. 
+                                She earned it in 1949 from Yale University. 
+                                She worked on various projects for the Apollo program, including celestial mechanics, trajectory computation, and "digital computer techniques".
+                            </div>
+                    </div>
+            </div>
+            <footer>
+                    <span>&copy; 2019 Evelyn Le's Blog</span>
+            </footer>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-3.4.0.min.js"  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="  crossorigin="anonymous"></script>
+        <script src='jQueryTrivia.js'></script>
+
+        
+    </body>
+
+
+
+</html>

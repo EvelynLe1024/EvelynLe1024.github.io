@@ -1,0 +1,144 @@
+
+/*Styling the navigation bar and drop-down menu */
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+   nav ul {
+     margin: 0em;
+     padding: 0em;
+     list-style: none;        
+   }
+
+   nav ul li {     
+     width: 6em;
+     height: 2.5em;
+     text-align: center;
+     line-height: 2em;
+     float: left;
+
+   }
+
+   nav ul li ul li {
+     display: none;
+   }
+
+   nav ul li:hover ul li {
+    display: block;
+  }
+
+   nav ul li a:hover {
+     background: #F0FFF0;
+
+   }
+   
+
+   nav ul li ul li a:hover {
+    background: #F0FFF0;
+   }
+
+   nav ul li a {
+     text-decoration: none;
+     display: block; 
+     color: black;   
+   }
+
+  .logo {
+    color: #ffb78c;
+    font-size: 1.25em;
+  }
+ 
+/* Styling the banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    background: url("notebook.jpg") center center no-repeat;
+    background-size: cover;
+    color: #ffb78c;
+  }
+  
+  .banner h2 {
+    padding: .55rem 0;
+    border-top: 4px solid #ffb78c;
+    border-bottom: 4px solid #ffb78c;
+    font-size: 1.44rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  
+  .banner h1 {
+    padding-top: 1.11rem;
+    font-size: 9rem;
+    font-weight: 900;
+  }
+
+/* Styling the main content */
+
+  .headshot {
+      size = 50px;
+      border-radius: 100%;
+  }
+
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow: scroll;
+    margin-left: 2em;
+    margin-right: 2em; 
+    color: black;
+} 
+
+h1 {
+    font-size: 10px;
+    text-align: center;
+    border: 0.19px solid mistyrose ;
+    border-radius: 0.31px;
+    padding: 1.56px;
+    top: 0.63em;
+    letter-spacing: 0.2em;
+}
+
+main {
+    margin-top: 5%;
+}
+
+p {
+    min-width: 200px;
+    min-height: 50px;
+}
+
+main h2 {
+  font-size: 2em;
+  color: salmon;  
+}
+
+footer {
+    padding: 1em;
+    /* border-top: 1px solid #999999; */
+    font-size: 1.125rem;
+    color: #999999;
+    text-align: center;
+  }
+
+.images .image-container {
+    display: in-line block;
+    width: 50%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-resolution: 300dpi) {
+  /* CSS for high resolution screens */
+}

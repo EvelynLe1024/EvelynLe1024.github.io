@@ -1,0 +1,179 @@
+/*Styling the navigation bar and drop-down menu */
+nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+   nav ul {
+     margin: 0em;
+     padding: 0em;
+     list-style: none;        
+   }
+
+   nav ul li {     
+     width: 6em;
+     height: 2.5em;
+     text-align: center;
+     line-height: 2em;
+     float: left;
+
+   }
+
+   nav ul li ul li {
+     display: none;
+   }
+
+   nav ul li:hover ul li {
+    display: block;
+  }
+
+   nav ul li a:hover {
+     background: #F0FFF0;
+
+   }
+   
+
+   nav ul li ul li a:hover {
+    background: #F0FFF0;
+   }
+
+   nav ul li a {
+     text-decoration: none;
+     display: block;
+     color: black;   
+   }
+
+
+   .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    background: url("keyboard.jpg") center center no-repeat;
+    background-size: cover;
+    color: #ffb78c;
+   
+  }
+  
+ 
+  
+  .banner h1 {
+    padding-bottom: 1.5em;
+    font-size: 5em;
+    font-weight: 200;
+  }
+
+   .logo {
+    color: #ffb78c;
+    font-size: 1.25em;
+  }
+
+   body {
+    font-family: 'Raleway', sans-serif;
+    overflow: scroll;
+    margin-left: 2em;
+    margin-right: 2em; 
+    color: black;
+} 
+
+h2 {
+  font-size: 2em;
+  color: salmon;  
+}
+
+h3 {
+  font-size: 1.5em;
+  color: salmon;  
+}
+
+/* Designing the trivia card */
+div {
+    display: block;
+    line-height: 1.5em;
+    padding: 0.3em;
+    margin: auto auto;
+    text-align: center  
+}
+.card {
+    width: 50%;
+    margin-top: 3em;
+    
+}
+
+.question {
+    background-color: mistyrose;
+    font-weight: bold; 
+    
+}
+
+.hint-box {
+    background-color: ivory;
+}
+
+.hint {
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+.hint-text {
+    display: none;
+}
+
+.answers {
+    
+    cursor: pointer;
+    
+    
+}
+
+.wrong-answer-two {
+    background-color: lavenderblush;
+    display:flex;
+    
+}
+
+.wrong-answer-three {
+    background-color: lavenderblush;
+}
+
+.result {
+    background-color: ivory;
+    height: 13em;
+    margin-bottom: 3em;
+}
+
+.name {
+  font-weight: bold;
+  background-color: lavenderblush;
+  cursor: pointer;
+}
+
+.explanation {
+  background-color: ivory;
+  text-align: left;
+}
+
+.explanations {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.reset {
+  width: 20%;
+  height: 60%;
+  background-color: salmon;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  padding: 1em;
+  /* border-top: 1px solid #999999; */ 
+  font-size: 1.125rem;
+  color: #999999;
+  text-align: center;
+}
