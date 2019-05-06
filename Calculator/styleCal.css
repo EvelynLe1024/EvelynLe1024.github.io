@@ -1,0 +1,184 @@
+/*Styling the navigation bar and drop-down menu */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 17px;
+}
+
+nav ul {
+    margin: 0em;
+    padding: 0em;
+    list-style: none;   
+}
+
+nav ul li {     
+    width: 6em;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2em;
+    float: left;
+}
+
+nav ul li ul li {
+    display: none;
+    text-align: center;
+}
+
+nav ul li:hover ul li {
+display: block;
+}
+
+nav ul li a:hover {
+    background: #F0FFF0;
+}
+
+
+nav ul li ul li a:hover {
+background: #F0FFF0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block; 
+    color: black;   
+}
+
+.logo {
+    color: #ffb78c;
+    font-size: 1.25em;
+}
+
+/*Styling the body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow: scroll;
+    margin-left: 2em;
+    margin-right: 2em; 
+    color: black;
+    font-size: 18px
+} 
+
+h1 {
+    text-align: center;
+    padding: 0.5em;
+    font-size: 3.5em;
+    color: #ffb78c;
+    border-top: 2px solid #ffb78c;
+    border-bottom: 2px solid #ffb78c;
+}
+
+#container {
+    width: 1200px;
+    height: 700px;
+    background-image: url(vase.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: ivory;
+    margin: 0 auto;
+    top: 60px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#result {
+    height: 120px;
+    border: double;
+    border-color:#ffb3b3;
+    padding: 4px auto;
+    margin: 7px 7px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 30px 20px;
+    font-size: 30px;    
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+    background: #ffffe6;
+    background-color: #ffe6cc;
+}
+
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.operator:active, .number:active {
+    font-size: 25px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+
+button:nth-child(4) {
+    font-size: 22px;
+    background-color: #ccffcc;
+}
+
+button:nth-child(8) {
+    font-size: 22px;
+    background-color: #ffb3b3;
+}
+
+button:nth-child(12) {
+    font-size: 22px;
+    background-color: #ffbb99;
+}
+
+button:nth-child(16) {
+    font-size: 22px;
+    background-color: #ffb3ff;
+}
+
+button:nth-child(20) {
+    font-size: 22px;
+    background-color: #b3e6ff;
+}
+
+footer {
+    padding: 1em;
+    /* border-top: 1px solid #999999; */
+    font-size: 1.125rem;
+    color: #999999;
+    text-align: center;
+  }

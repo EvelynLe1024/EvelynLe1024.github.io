@@ -2,30 +2,36 @@
 <html> 
     <head> 
         <title>Evelyn Le</title>
+        <!-- Required meta tags for Bootstrap-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS for styling and layout-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
         <link href="./Style.css" rel='stylesheet' type='text/css'>
+        <!--Importing jQuery library-->
         <script src="https://code.jquery.com/jquery-3.4.0.min.js"  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="  crossorigin="anonymous"></script>
 
     </head>
 
     <body>
-        <header>
-        <nav>
-            <span class="logo"> Evelyn Le! </span>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li class="dropdown" id="projects">
-                    <a href="#">Portfolio</a>
-                    <ul class="dropdown-menu" id="projects-menu">
-                        <li><a href="./Trivia/Trivia.html">Games</a></li>
-                        <li><a>Apps</a></li>
-                        <li><a>Data Visualization</a></li>
-                    </ul>
-                </li>
-                <li><a href="#contact">Contact</a></li>
-            </ul> 
-        </nav>
+        <header>                
+            <nav>
+                <span class="logo"> Evelyn Le </span>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="dropdown" id="projects">
+                        <a href="#portfolio">Portfolio</a>
+                        <ul class="dropdown-menu" id="projects-menu">
+                            <li><a href="./Trivia/Trivia.html">Games</a></li>
+                            <li><a href="./Calculator/cal.html">Apps</a></li>
+                            <li><a>Data Visualization</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> 
+            </nav>
         </header>
              
         <!-- Banner -->
@@ -40,7 +46,7 @@
                 <h2>About Me</h2>
                     <p>Hi, I'm Evelyn Le. I am currently based in DC. I taught myself how to program and built this website from scratch.</p>
                     <img class="headshot" src="headshot.jpg" alt="Evelyn Le's photo" width="200" height="auto">
-                    <h4>Programming Skills:</h4>
+                    <h5>Programming Skills:</h5>
                     <ul> 
                         <li>Python</li>
                         <li>Javascript</li>
@@ -50,17 +56,57 @@
             </div>
 
             <div id="contact">
-                    <h4>Contact Me At:</h4>
+                    <h5>Contact Me At:</h5>
                     <p><strong>LinkedIn</strong>: <a href = "www.linkedin.com/in/evelynle1024/">linkedin.com/in/evelynle1024/</a> | <strong>Email</strong>: evelyn.le.1024@gmail.com | <strong>Location</strong>: Washington, D.C</p>
             </div>
 
             <div id="portfolio">
                 <h2>My Portfolio</h2>
-                <p>You can check out my portfolio <a href="./Trivia/Trivia.html">here</a></p>
+                <p>Check out my projects below.</p>
             </div>
         </main>
            
-                <script src='jQuery.js'></script>
+    <section class="container" id="portfolio">                
+        <div class="row">            
+            <div class="col-sm-4">                
+                <!-- Trivia card -->
+                <div class="card text-center">                    
+                    <div class="card-header font-weight-bold">
+                    Trivia Game
+                    </div>
+                    <a href="Trivia/Trivia.html"><img class="card-img-top" src="laptop.jpg"></a>
+                    <div class="card-body">
+                        <p class=" card-text fontt">
+                            This game tests your knowledge of famous female programmers.
+                        </p>
+                        <a href="./Trivia/Trivia.html"></a>
+                    </div>                    
+                </div>                    
+            </div>
+      
+            <div class="col-sm-4">
+                
+                <!-- Calculator card -->
+                <div class="card h-100 text-center">                    
+                    <div class="card-header font-weight-bold">
+                    Calculator
+                    </div>
+                    <a href="Calculator/cal.html"><img class="card-img-top" src="calculator.jpg"></a>
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <p class=" card-text fontt">
+                            This app provides the basic functionalities of a calculator. 
+                        </p>
+                    
+                    </div>                    
+                </div>
+            </div>
+         
+
+        </div>  
+    
+        </section>
+
+        <script src='jQuery.js'></script>
 
     </body>
            

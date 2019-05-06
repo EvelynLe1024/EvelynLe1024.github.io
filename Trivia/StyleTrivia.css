@@ -58,11 +58,14 @@ nav {
   
  
   
-  .banner h1 {
-    padding-bottom: 1.5em;
-    font-size: 5em;
-    font-weight: 200;
-  }
+  h1 {
+    text-align: center;
+    padding: 0.5em;
+    font-size: 3.5em;
+    color: #ffb78c;
+    border-top: 2px solid #ffb78c;
+    border-bottom: 2px solid #ffb78c;
+}
 
    .logo {
     color: #ffb78c;
@@ -75,6 +78,7 @@ nav {
     margin-left: 2em;
     margin-right: 2em; 
     color: black;
+    font-size: 18px;
 } 
 
 h2 {
