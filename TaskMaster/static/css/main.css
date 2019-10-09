@@ -1,0 +1,126 @@
+/*Styling the navigation bar and drop-down menu */
+nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+nav ul {
+    margin: 0em;
+    padding: 0em;
+    list-style: none;        
+}
+
+nav ul li {     
+    width: 6em;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2em;
+    float: left;
+}
+
+nav ul li ul li {
+    display: none;
+}
+
+nav ul li:hover ul li {
+display: block;
+}
+
+nav ul li a:hover {
+    background: #F0FFF0;
+}
+
+nav ul li ul li a:hover {
+background: #F0FFF0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;   
+}
+
+.banner {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 15rem;
+background: url("keyboard.jpg") center center no-repeat;
+background-size: cover;
+color: #ffb78c;
+}
+
+h1 {
+text-align: center;
+padding: 0.5em;
+font-size: 3.5em;
+color: #ffb78c;
+border-top: 2px solid #ffb78c;
+border-bottom: 2px solid #ffb78c;
+}
+
+.logo {
+color: #ffb78c;
+font-size: 1.25em;
+}
+
+#container {
+    width: 1200px;
+    height: 700px;
+    background-image: url(pillows.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 50px auto;
+}
+
+body {
+font-family: 'Raleway', sans-serif;
+overflow: scroll;
+margin-left: 2em;
+margin-right: 2em; 
+color: black;
+font-size: 18px;
+} 
+
+h2 {
+  font-size: 2em;
+  color: salmon;  
+}
+
+h3 {
+  font-size: 1.5em;
+  color: salmon;  
+}
+
+
+.content {
+    margin: 0 auto;
+    width: 700px;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 75%;
+}
