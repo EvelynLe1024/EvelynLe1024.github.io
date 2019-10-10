@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"> Evelyn Le </span>
+                <ul>
+                    <li><a href="../EvelynLe1024.github.io/index.html">Home</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li class="dropdown" id="projects">
+                        <a href="../index.html#portfolio">Portfolio</a> 
+                        <ul class="dropdown-menu" id="projects-menu">
+                            <li><a href="../Trivia/Trivia.html">Games</a></li>
+                            <li><a href="../Calculator/cal.html">Apps</a></li>                            
+                            <li><a>Data Visualization</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul> 
+            </nav>
+        </header>
+
+    {% block body %}{% endblock %}
+</body>
+</html>
