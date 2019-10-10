@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% extends 'base.html' %}
 
 {% block head %}
@@ -15,4 +16,23 @@
         </form>
     </div>    
 </div>
+=======
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Update Task</h1>
+
+    <div class="form">
+        <form action="/update/{{task.id}}" method="POST">
+            <input type="text" name="content" id="content" value="{{task.content}}">
+            <input type="submit" value="Update">    
+        </form>
+    </div>    
+</div>
+>>>>>>> 0b3bbc163f0d95dded4c23ad938295df380508c4
 {% endblock %}
