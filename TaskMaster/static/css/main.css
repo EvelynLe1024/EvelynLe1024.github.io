@@ -124,3 +124,13 @@ td {
 #content {
     width: 75%;
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
+  
+@media only screen and (min-resolution: 300dpi) {
+/* CSS for high resolution screens */
+}
