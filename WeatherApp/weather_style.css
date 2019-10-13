@@ -91,14 +91,6 @@ h3 {
   color: salmon;  
 }
 
-footer {
-  padding: 1em;
-  /* border-top: 1px solid #999999; */
-  font-size: 1.125rem;
-  color: #999999;
-  text-align: center;
-}
-
 @media only screen and (max-width: 480px) {
   body {
     font-size: 12px;
