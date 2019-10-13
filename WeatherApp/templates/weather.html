@@ -1,13 +1,12 @@
 <!DOCTYPE html> 
-<html> 
-    <head> 
-        <title>Web Scraping</title>
+<html>
+	<head>
+		<title>Request Example</title>
         <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
-        <link href="../webscrape_css.css" rel='stylesheet' type='text/css'>
-    </head>
-
-    <body>
-        <header>
+        <link rel="stylesheet" href="{{ url_for('static', filename='weather_style.css') }}">
+	</head>
+	<body>
+		<header>
             <nav>
                 <span class="logo"> Evelyn Le </span>
                 <ul>
@@ -26,20 +25,22 @@
             </nav>
         </header>
 
-        <h1>Web Scraping</h1>
+        <h1>Weather App</h1>
 
         <!--Game-->
-        <h3>Scraping Data on Cell Phone Sales on NewEgg.com </h3>
-        <p>I use the Python library Beautiful Soup to scrape data on cell phone sales on NewEgg.com
-            on October 11, 2019. I scraped the data on four different variables: 1. Brand, 2. Product 
-            Name, 3. Shipping Price, and 4. Current Price.             
+        <p>I use the Python framework Flask to build a weather app that interacts with the API at <a href="https://openweathermap.org/">Open Weather Map</a>. 
+        This app provides the temperatures (F) in all cities in the US.            
         <br>
-        <br>The table below shows the results of the web scraping. You can see the code <a href="https://github.com/EvelynLe1024/EvelynLe1024.github.io/blob/master/WebScraping/newegg_scraping.py" target="_blank">here</a>.
+        <br>Just enter the city name and check out what the weather is like in that city! You can see the code <a href="https://github.com/EvelynLe1024/EvelynLe1024.github.io/blob/master/WebScraping/newegg_scraping.py" target="_blank">here</a>.
         </p> 
-        <img class="results" src="results.JPG" alt="Results of Web Scraping" width="1100" high="auto">               
-    </body>
+    
+		<form method="POST" action="/temperature">
+			City Name : <input type="text" name="city_name">
+			<input type="submit">
+		</form>
 
-    <footer>
+	</body>
+	<footer>
             <span>&copy; 2019 Evelyn Le's Blog</span>
     </footer>
 </html>
