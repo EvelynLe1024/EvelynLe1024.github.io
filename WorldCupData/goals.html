@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>World Cup</title>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+        <link href="./goals_style.css" rel='stylesheet' type='text/css'>
+        
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <span class="logo"> Evelyn Le </span>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li class="dropdown" id="projects">
+                        <a href="../index.html#portfolio">Portfolio</a> 
+                        <ul class="dropdown-menu" id="projects-menu">
+                            <li><a href="../index.html#apps">Apps</a></li>
+                            <li><a href="../index.html#games">Games</a></li>                                                        
+                            <li><a href="../index.html#data">Data Visualization</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul> 
+            </nav>
+        </header>
+
+        <h1>Goals at World Cup</h1>
+
+        <p>I used the Fifa World Cup dataset from <a href="https://www.kaggle.com/abecklas/fifa-world-cup">Kaggle</a> 
+            to analyze the trends of goals from 1930 to 2014. 
+            I plotted the charts below using three Python libraries: Matplotlib, Pandas, and Seaborn. 
+        <br>
+        <br>You can see the code <a href="" target="_blank">here</a>.
+        </p>
+
+        <img class="average" src="average_goals.JPG" alt="Average Goals" width="800" high="auto">  
+        <p>The bar chart above shows the average number of goals scored at the World Cup from 1930 to 2014. 
+            I used Seaborn to aggregate data to plot the bar chart using the means. The bar chart can quicky 
+            show the means and confidence intervals by year. However, this type of chart
+            hides information such as the minimum and maximum numbers as well as the distribution of goals
+            in a certain year. The box plot below can offer such information. 
+        </p>
+        <img class ="distribution" src="goals_distribution.JPG" alt="Goals Distribution" width="800" high="auto"> 
+        <p>The box plot above shows the distribution of goals scored at the World Cup from 1930 
+            to 2014. The box plot (or a box-and-whisker plot) provides information about the range of the data, 
+            the shape of the distribution of the data, and outliers in the dataset. 
+            <br>
+            - The box shows the interquartile range (the middle 50% or the difference between 75th and 25th percentiles).
+            <br>
+            - The line in the middle represents the median.
+            <br>
+            - The end lines represerent the first and third quartiles. 
+            <br>
+            - The diamonds show outliers (data points that differ substantially from other observations and 
+            can skew the distribution of the dataset).
+
+        </p> 
+        
+        <footer>
+                    <span>&copy; 2019 Evelyn Le's Blog</span>
+            </footer>
+        </div>
+        
+    </body>
+
+</html>
