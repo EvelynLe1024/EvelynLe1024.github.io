@@ -22,11 +22,12 @@
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li class="dropdown" id="projects">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio" class="dropbtn">Portfolio</a>
                         <ul class="dropdown-menu" id="projects-menu">
                             <li><a href="#apps">Apps</a></li>
-                            <li><a href="#games">Games</a></li>
+                            <li><a href="#ml">Machine Learning</a></li>
                             <li><a href="#data">Data Visualization</a></li>
+                            <li><a href="#games">Games</a></li>
                         </ul>
                     </li>
                     <li><a href="#contact">Contact</a></li>
@@ -151,28 +152,43 @@
         </div>      
         </section>
     <br>
-    <h3>Games</h3>   
+    
+    <h3>Machine Learning</h3>   
     <br>        
-    <section class="container" id="games">                
+    <section class="container" id="ml">                
         <div class="row">            
             <div class="col-sm-4">                
-                <!-- Trivia card -->
+                <!-- Image Recognition -->
                 <div class="card text-center">                    
                     <div class="card-header font-weight-bold">
-                    Trivia Game
+                    Image Recognition
                     </div>
-                    <a href="Trivia/Trivia.html"><img class="card-img-top" src="laptop.jpg"></a>
+                    <a href="ImageRecognition/ai_index.html"><img class="card-img-top" src="ImageRecognition/ai.jpg"></a>
                     <div class="card-body">
                         <p class=" card-text fontt">
-                            I built a game about famous female programmers using jQuery.
-                        </p>
-                        <a href="./Trivia/Trivia.html"></a>
-                    </div>                    
+                            I built an image recognition app using imageAI, TensorFlow, Keras, and
+                            OpenCV. 
                 </div>                    
             </div>
-        </div>      
+        </div>   
+          
+            <div class="col-sm-4">                
+                <!-- Image Recognition -->
+                <div class="card text-center">                    
+                    <div class="card-header font-weight-bold">
+                    Categorizing Iris Flowers
+                    </div>
+                    <a href="IrisFlower/iris_index.html"><img class="card-img-top" src="IrisFlower/iris.jpg"></a>
+                    <div class="card-body">
+                        <p class=" card-text fontt">
+                            I built an app that categorizes Iris flowers
+                            using the Nearst Neighbors algorithm and scikit-learn.
+                </div>                    
+            </div>
+                
     </section>
     <br>
+
     <h3>Data Visualization</h3> 
     <br>          
     <section class="container" id="data">                
@@ -225,6 +241,29 @@
 
         </div>      
     </section>
+
+    <h3>Games</h3>   
+    <br>        
+    <section class="container" id="games">                
+        <div class="row">            
+            <div class="col-sm-4">                
+                <!-- Trivia card -->
+                <div class="card text-center">                    
+                    <div class="card-header font-weight-bold">
+                    Trivia Game
+                    </div>
+                    <a href="Trivia/Trivia.html"><img class="card-img-top" src="laptop.jpg"></a>
+                    <div class="card-body">
+                        <p class=" card-text fontt">
+                            I built a game about famous female programmers using jQuery.
+                        </p>
+                        <a href="./Trivia/Trivia.html"></a>
+                    </div>                    
+                </div>                    
+            </div>
+        </div>      
+    </section>
+    <br>
     <script src='jQuery.js'></script>
     </body>
            
