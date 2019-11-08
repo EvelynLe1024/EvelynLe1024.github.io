@@ -1,0 +1,307 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/trydjango/settings.py",
+			"settings":
+			{
+				"buffer_size": 3126,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/trydjango/urls.py",
+			"settings":
+			{
+				"buffer_size": 871,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/pages/views.py",
+			"settings":
+			{
+				"buffer_size": 254,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"set py",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/TryDjango",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/TryDjango/venv"
+	],
+	"file_history":
+	[
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WeatherApp/weather_style.css",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WeatherApp/templates/weather.html",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/TaskMaster/templates/base.html",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WeatherApp/weatherapp.py",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/Trivia/Trivia.html",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/TaskMaster/templates/taskmaster.html",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WeatherApp/templates/temperature.html",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WebScraping/webscrape_css.css",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/TaskMaster/static/css/main.css",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WebScraping/webscrape.html",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WebScraping/newegg_scraping.py",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/TaskMaster/app.py",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WeatherApp/index.html",
+		"/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/WeatherApp/weather.html",
+		"/C/Users/lengocly/Google Drive/My projects/Computer Science/Princeton Intro to CS/Homework/io/Checkerboard.class",
+		"/C/Users/lengocly/Google Drive/My projects/Computer Science/Princeton Intro to CS/Homework/io/fair-coin.txt",
+		"/C/Users/lengocly/Google Drive/My projects/Computer Science/Princeton Intro to CS/Homework/io/world/taiwan.txt"
+	],
+	"find":
+	{
+		"height": 39.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/trydjango/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1080,
+								1080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 832.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/trydjango/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/pages/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trydjango.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
