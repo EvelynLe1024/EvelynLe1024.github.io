@@ -11,7 +11,7 @@
 			"file": "src/trydjango/settings.py",
 			"settings":
 			{
-				"buffer_size": 3126,
+				"buffer_size": 3161,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -20,7 +20,7 @@
 			"file": "src/trydjango/urls.py",
 			"settings":
 			{
-				"buffer_size": 871,
+				"buffer_size": 915,
 				"line_ending": "Windows"
 			}
 		},
@@ -28,7 +28,16 @@
 			"file": "src/pages/views.py",
 			"settings":
 			{
-				"buffer_size": 254,
+				"buffer_size": 498,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/craigslist_clone/craigslist_clone/requirements.txt",
+			"settings":
+			{
+				"buffer_size": 1847,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -130,7 +139,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -139,15 +148,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3126,
+						"buffer_size": 3161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1080,
-								1080
+								0,
+								0
 							]
 						],
 						"settings":
@@ -160,7 +169,7 @@
 						"translation.y": 832.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -169,15 +178,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 871,
+						"buffer_size": 915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								763,
-								763
+								0,
+								0
 							]
 						],
 						"settings":
@@ -188,7 +197,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -197,15 +206,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 254,
+						"buffer_size": 498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								170,
-								170
+								0,
+								0
 							]
 						],
 						"settings":
@@ -214,6 +223,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/lengocly/Documents/GitHub/EvelynLe1024.github.io/craigslist_clone/craigslist_clone/requirements.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1602,
+								1602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1404.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
